@@ -38,21 +38,7 @@ body {
   transition: all 0.3s;
 }
 
-.btn::after {
-  content: "";
-  position: absolute;
-  width: 390px;
-  height: 390px;
-  border-radius: 140px;
-  background-color: #fff;
-  top: 70px;
-  left: 50%;
-  z-index: -1;
 
-  animation: wave 5s infinite linear;
-  transition: all 1s;
-
-}
 
 @keyframes wave {
   0% {
@@ -62,12 +48,4 @@ body {
   100% {
       transform: translateX(-50%) rotate(360deg);
   }
-}
-
-.btn:hover {
-  color: #b471f3;
-}
-
-.btn:hover::after {
-  top: 25px;
 }
