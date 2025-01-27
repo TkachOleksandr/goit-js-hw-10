@@ -35,17 +35,7 @@ body {
   padding: 25px 60px;
 
   overflow: hidden;
-  transition: all 0.3s;
 }
 
 
 
-@keyframes wave {
-  0% {
-      transform: translateX(-50%) rotate(0deg);
-  }
-
-  100% {
-      transform: translateX(-50%) rotate(360deg);
-  }
-}
