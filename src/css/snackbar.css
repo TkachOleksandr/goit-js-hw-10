@@ -1,5 +1,4 @@
 body {
-  background-color: #64b56a;
   font-family: Montserrat;
 }
 
@@ -16,9 +15,8 @@ body {
   top: 0;
   left: 0;
 
-  color: #fff;
   text-decoration: none;
-  border: 3px solid #fff;
+  border: 3px solid #000;
   border-radius: 18px;
   font-family: inherit;
   font-weight: 600;
@@ -29,7 +27,6 @@ body {
   margin: 10px 10px;
 
   overflow: hidden;
-  transition: all 0.3s;
 }
 
 .btn::after {
@@ -38,28 +35,15 @@ body {
   width: 370px;
   height: 370px;
   border-radius: 140px;
-  background-color: #fff;
+  background-color: #808080;
   top: 50px;
   left: 50%;
   z-index: -1;
 
-  animation: wave 5s infinite linear;
-  transition: all 1s;
-
-}
-
-@keyframes wave {
-  0% {
-      transform: translateX(-50%) rotate(0deg);
-  }
-
-  100% {
-      transform: translateX(-50%) rotate(360deg);
-  }
 }
 
 .btn:hover {
-  color: #64b56a;
+  color: #808080;
 }
 
 .btn:hover::after {
@@ -144,7 +128,6 @@ body {
   background-color: #407953;
   border: transparent;
 
-  color: #FFF;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

@@ -4,7 +4,6 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 95vh;
-  background-color: #d1a1ff;
 }
 
 .list {
@@ -23,9 +22,8 @@ body {
   position: relative;
   z-index: 1;
 
-  color: #fff;
   text-decoration: none;
-  border: 3px solid #fff;
+  border: 3px solid #0000;
   border-radius: 18px;
   font-family: inherit;
   font-weight: 600;
