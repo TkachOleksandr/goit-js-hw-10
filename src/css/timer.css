@@ -16,7 +16,7 @@ body {
   top: 0;
   left: 0;
 
-  color: #000;
+  color: #fff;
   text-decoration: none;
   border: 3px solid #000;
   border-radius: 18px;
@@ -27,6 +27,7 @@ body {
   letter-spacing: 0.04em;
   padding: 10px 30px;
   margin: 10px 10px;
+  background-color: #808080;
 
   overflow: hidden;
   transition: all 0.3s;
@@ -100,11 +101,6 @@ body {
   border-radius: 5px;
 }
 
-@keyframes rotate {
-  100% {
-      transform: rotate(1turn);
-  }
-}
 
 .calendar {
   margin-bottom: 30px;
